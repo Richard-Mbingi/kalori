@@ -1,21 +1,23 @@
 import { Stack } from "expo-router";
+import React from "react";
 
-import "../global.css";
-
-export default function RootLayout() {
+function HomeLayout() {
   return (
     <Stack
       screenOptions={{
         headerStyle: {
           backgroundColor: "#f4511e",
         },
-        headerTintColor: "fff",
+        headerTintColor: "#fff",
         headerTitleStyle: {
           fontWeight: "bold",
         },
       }}
     >
-      <Stack.Screen name="(tabs)" />
+      <Stack.Screen name="index" />
+      <Stack.Screen name="food-details" />
     </Stack>
   );
 }
+
+export default HomeLayout;

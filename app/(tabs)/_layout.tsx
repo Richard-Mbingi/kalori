@@ -1,7 +1,5 @@
 import { Stack } from "expo-router";
 
-import "../global.css";
-
 export default function RootLayout() {
   return (
     <Stack
@@ -15,7 +13,7 @@ export default function RootLayout() {
         },
       }}
     >
-      <Stack.Screen name="(tabs)" />
+      <Stack.Screen name="(home)" />
     </Stack>
   );
 }
