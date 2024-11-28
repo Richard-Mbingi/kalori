@@ -15,7 +15,7 @@ function HomeLayout() {
       }}
     >
       <Stack.Screen name="index" />
-      <Stack.Screen name="food-details" />
+      <Stack.Screen name="details" />
     </Stack>
   );
 }
