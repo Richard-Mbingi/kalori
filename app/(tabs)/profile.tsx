@@ -1,8 +1,11 @@
 import React from 'react'
+import { Text, View } from 'react-native'
 
 function Profile() {
   return (
-    <div>Profile</div>
+    <View>
+      <Text>Profile Page</Text>
+    </View>
   )
 }
 
