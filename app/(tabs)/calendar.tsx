@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 function Profile() {
   return (
     <View>
-      <Text>Profile Page</Text>
+      <Text>Calendar Page</Text>
     </View>
   )
 }

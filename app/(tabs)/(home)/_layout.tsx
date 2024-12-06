@@ -4,8 +4,8 @@ import React from "react";
 function HomeLayout() {
   return (
     <Stack>
-      <Stack.Screen name="index" />
-      <Stack.Screen name="food_details" />
+      <Stack.Screen name="index" options={{ headerShown: false }} />
+      <Stack.Screen name="food_details" options={{ headerShown: false }}/>
     </Stack>
   );
 }
