@@ -16,7 +16,7 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="profile"
+        name="calendar"
         options={{
           title: "Calendar",
           tabBarIcon: ({ color }) => (

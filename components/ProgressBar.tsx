@@ -14,7 +14,7 @@ export default function ProgressBar() {
 
   return (
     <View className="h-5 bg-slate-300 rounded-full m-2">
-      <Animated.View className="h-5 bg-slate-800 rounded-full" />
+      <Animated.View className="h-5 bg-slate-400 rounded-full" />
     </View>
   );
 }
